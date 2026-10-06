@@ -1,0 +1,69 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+*.log
+*.swp
+*.swo
+
+# Environment/secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.*
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build/output
+build/
+dist/
+out/
+bin/
+obj/
+target/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Test/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Java
+*.class
+
+# C/C++
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+
+# IDE
+*.code-workspace
